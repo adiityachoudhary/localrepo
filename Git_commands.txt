@@ -2,6 +2,7 @@
 
 git init                         -Initializes existing directory
 git remote add origin https://github.com/adiityachoudhary/localrepo.git     - Link your localrepo in Github
+git remote add origin https://github.com/adiityachoudhary/web-dev.git       - Link your WebDev in Github
 git remote -v                    - to verify remote
 git branch                       - Verify Branch
 git branch -M main               - Reaname branch to "main"
