@@ -21,7 +21,7 @@
     <!-- favicon -->
     <link rel="icon" href="icon/aditya.ico">
     <title>Aditya Choudhary</title>
-<style>
+    <style>
         /* footer image */
         .img-fluid {
             width: 100px;
@@ -36,10 +36,10 @@
         /* footer background */
         footer {
             background-image: url("pic/blue.jpg");
-            height:100%;
+            height: 100%;
             background-position: center;
-            background-repeat:no-repeat;
-            background-size:cover;
+            background-repeat: no-repeat;
+            background-size: cover;
         }
 
         /* footer items display-flex */
@@ -53,9 +53,9 @@
         .container-fluid {
             /* background-color: rgb(211, 211, 211); */
             background-image: url("pic/bg.jpg");
-            height:100%;
-            background-repeat:no-repeat;
-            background-size:cover;
+            height: 100%;
+            background-repeat: no-repeat;
+            background-size: cover;
         }
 
         /* Portfolio header */
@@ -65,16 +65,17 @@
             box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.305);
 
         }
-        .name{
+
+        .name {
             color: #0d3b4c;
         }
 
         /* group of cards background, corner and shadow */
         .cards {
             background-image: url("pic/gradient.jpg");
-            height:100%;
-            background-repeat:no-repeat;
-            background-size:cover;
+            height: 100%;
+            background-repeat: no-repeat;
+            background-size: cover;
             border-radius: 20px;
             box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.305);
             color: white;
@@ -107,35 +108,37 @@
         <!-- Navbar -->
         <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark px-3">
             <a class="navbar-brand col-lg-9 fw-bolder" href="#">ADITYA CHOUDHARY</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
-              <ul class="navbar-nav">
-                <li class="nav-item active">
-                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Features</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Pricing</a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Dropdown link
-                  </a>
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                    <a class="dropdown-item" href="#">Action</a>
-                    <a class="dropdown-item" href="#">Another action</a>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                  </div>
-                </li>
-              </ul>
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            Dropdown link
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </li>
+                </ul>
             </div>
-          </nav>         
-        
-        
+        </nav>
+
+
         <!-- header -->
         <h6 class="text-center fw-bold sticky-top fs-5 py-1">Portfolio
         </h6>
@@ -152,7 +155,7 @@
                 From Chessboard and Ludo designs to Resumes and Song websites, each project showcases my skills in a
                 creative
                 and engaging way.
-            
+
             </p>
 
             <!-- Group of cards -->
@@ -162,6 +165,21 @@
 
                 <!-- four card -->
                 <div class="row row-cols-1 row-cols-md-2 g-4 p-1">
+                     <!-- TO-DO card card-3 -->
+                    <div class="col">
+                        <div class="card">
+                            <a href="To-do list\index.html" target="_blank" class="text-decoration-none"><img
+                                    src="pic/todo.jpeg" class="card-img-top p-1" alt="to-do thumb">
+                                <div class="card-body text-dark">
+                                    <h5 class="card-title ">TO-DO LIST</h5>
+                                    <p class="card-text text-muted">A basic to-do list.
+                                        Add, manage, and complete tasks with
+                                        ease. Stay organized and get things done.</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    
                     <!-- Resume card card-1 -->
                     <div class="col">
                         <div class="card">
@@ -214,21 +232,7 @@
                         </div>
                     </div>
 
-                    <!-- website card card-3 -->
-                    <div class="col">
-                        <div class="card">
-                            <a href="Song website.html" target="_blank" class="text-decoration-none"><img
-                                    src="pic/song.png" class="card-img-top p-1" alt="pic_song">
-                                <div class="card-body text-dark">
-                                    <h5 class="card-title ">A TEST WEBSITE</h5>
-                                    <p class="card-text text-muted">Website showcasing songs with album covers,
-                                        titles,and artists.
-                                        Designed using HTML, CSS, and Bootstrap, with features likeYoutube video and
-                                        navigation menus.</p>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
+                   
                 </div>
             </div>
         </div>
@@ -236,24 +240,29 @@
         <!-- footer -->
         <footer class="py-3 text-center text-white">
             <ul class="list-group list-group-horizontal-lg ">
-                <!-- twitter -->
-                <div class="col-lg-3 col-12 p-2 "><a class="text-white"
-                        href="https://twitter.com/adiityachoudhry?t=UdPDr3spRYLURaGo5MdfhQ&s=35" target="_blank"
+
+                <!-- GitHub -->
+                <div class="col-lg-3 col-12 p-2"><a class="text-white"
+                        href="https://github.com/adiityachoudhary" target="_blank"
                         style="text-decoration: none;"><i
-                            class="blur fa-brands border border-5 border-white bg-white rounded-circle fa-twitter fa-beat-fade text-info me-2"></i>Twitter</a>
+                            class="blur fa-brands border border-5 border-white rounded-circle text-dark bg-white fa-github fa-beat-fade me-2"></i>GitHub</a>
                 </div>
+
+                
                 <!-- Linkedin -->
                 <div class="col-lg-3 col-12 p-2"><a class="text-white"
                         href="https://www.linkedin.com/in/aditya-choudhary-908307171/" target="_blank"
                         style="text-decoration: none;"><i
                             class="blur fa-brands border border-5 border-white bg-white rounded-circle fa-linkedin fa-beat-fade text-primary me-2"></i>Linkedin</a>
                 </div>
-                <!-- Instagram -->
-                <div class="col-lg-3 col-12 p-2"><a class="text-white"
-                        href="https://www.instagram.com/adiityachoudhary/" target="_blank"
+
+                <!-- twitter -->
+                <div class="col-lg-3 col-12 p-2 "><a class="text-white"
+                        href="https://twitter.com/adiityachoudhry?t=UdPDr3spRYLURaGo5MdfhQ&s=35" target="_blank"
                         style="text-decoration: none;"><i
-                            class="blur fa-brands border border-5 border-white rounded-circle text-dark bg-white fa-instagram fa-beat-fade me-2"></i>Instagram</a>
+                            class="blur fa-brands border border-5 border-white bg-white rounded-circle fa-twitter fa-beat-fade text-info me-2"></i>Twitter</a>
                 </div>
+            
 
                 <!-- Photo footer circle -->
                 <div class="col-lg-3 col-12 pt-2"><img src="pic/Photosquare.jpg" alt="Display picture"
