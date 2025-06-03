@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.blue{
+    background-color: blue;
+}
+.red{
+    background-color: red;
+}
+.yellow{
+    background-color: yellow;
+}
+.green{
+    background-color: green;
+}
+
+.white{
+    background-color: white;
+}
+
+/* main container big square */
+.container{
+    width: 700px;
+    height: 700px;
+    margin: 10px auto;
+    border: 1px solid black;
+}
+
+/* container-1: row of blue & red box,
+container-3: row of yellow and green box */
+.container1,.container3{
+    width: 100%;
+    height: 40%;
+    display: flex;
+}
+/* container-2: row of home box and path */
+.container2{
+    width: 100%;
+    height: 20%;
+    display: flex;
+}
+
+/* color boxes */
+.r1c1,.r1c3,.r3c1,.r3c3{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+}
+
+/* white box inside colored boxes */
+.center{
+    width: 70%;
+    height: 70%;
+    border: 2px solid black;
+    
+}
+
+/* path vertical */
+.r1c2,.r3c2{
+    width: 20%;
+    height: 100%;
+}
+
+/* path horizontal */
+.r2c1,.r2c3{
+    width: 40%;
+    height: 100%;
+}
+
+/* home box dimension */
+.r2c2{
+    width: 20%;
+    height: 99%;
+    border: 2px solid black;
+    display: flex;
+}
+
+
+/* >div is used to select each and every items in the given classname */
+
+/* Here >div selector is used here to select all the items inside
+.center class name (i.e white boxes inside colored boxes) and set the 
+size and dimensions of goti in each white center */
+.center>div{
+    width: 28%;
+    height: 28%;
+    margin: 9%;
+    float: left;
+    border: 2px solid black;
+}
+
+
+/* vertical path selector  */
+.r1c2>div,.r3c2>div{
+    width: 32.18%;
+    height: 16.05%;
+    float: left;
+    border: 1px solid black;
+}
+
+/* horizontal path selector  */
+.r2c1>div,.r2c3>div{
+    width: 16.05%;
+    height: 32.18%;
+    float: left;
+    border: 1px solid black;
+}
+
+/* home box */
+.home{
+    width: 0;
+    height: 0;
+    border-top: 71px solid red;
+    border-left: 71px solid blue;
+    border-right: 71px solid green;
+    border-bottom: 71px solid yellow;
+}

@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 50%;
+    height: 50%;
+}
+
+/* square sizes */
+.blue,.red,.yellow,.green{
+    height: 250px;
+    width: 250px;
+}
+
+.home{
+    height: 100px;
+    width: 100px;
+}
+.container,.blue,.red,.yellow,.green{
+    border: 5px solid black;
+}
+.blue{
+    border-left: none;
+    border-top: none;
+}
+.yellow{
+    border-left: none;
+    border-bottom: none;
+}.red{
+    border-right: none;
+    border-top: none;
+}
+.green{
+    border-right: none;
+    border-bottom: none;
+}
+
+/* white box inside blue box */
+.start{
+    height: 200px;
+    width: 200px;
+    position: relative;
+    z-index: 2;
+}
+.blue{
+    position: relative;
+    z-index: 1;
+}

@@ -1,0 +1,21 @@
+/* welcome line css */
+.header{
+    background-color: rgb(167, 255, 255);
+    border: 1px solid black;
+}
+
+/* hello css */
+.h{ 
+    border: 1px solid black;
+    background-color: rgb(255, 0, 0);
+}
+
+/* picture div css */
+/* .pic{
+    height: 140px;    
+} */
+
+/* picture inline css */
+/* .picc{
+    border: 5px solid red;
+} */
