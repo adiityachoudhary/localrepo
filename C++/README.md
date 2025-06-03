@@ -1,3 +1,3 @@
-# this folder contains all my C++ Development
+# This folder contains all my C++ Development
 <br>
-COntains - problems on c++
+Contains - problems on c++
