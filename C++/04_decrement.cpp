@@ -6,9 +6,9 @@ int main()
 {
     system("cls");
     int n;
-    cout<<"Enter any no.: "; //print all the natural no.
+    cout<<"Enter any no.: ";
     cin>>n;
-    for(int i=1;i<=n;i++)
+    for(int i=n;i;i--) //here the condition i is checked until it is 0(i.e FALSE)
     {
         cout<<i<<endl;
     }
