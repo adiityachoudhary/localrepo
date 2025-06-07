@@ -5,13 +5,15 @@ using namespace std;
 int main()
 {
     system("cls");
-    int n,i=1, f=0;
+    int n, i = 1, f = 0;
     cout << "Enter no. to check prime no.: ";
     cin >> n;
 
-    while(i<=n){
-        if(n%i==0)
-        f++,i++;
+    while (i <= n)
+    {
+        if (n % i == 0)
+            f++;
+        i++;
     }
 
     if (f == 2)
