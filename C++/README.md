@@ -31,19 +31,6 @@ This repository was created to:
 
 ---
 
-## 🛤️ Structure
-
-```bash
-C++-Development/
-├── Basics/
-├── STL/
-├── OOPs/
-├── Algorithms/
-├── Competitive_Programming/
-└── README.md
-```
-
-
 ## 📌 Let's Connect
 
 If you find this helpful or inspiring, give the repo a ⭐ and feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/aditya-choudhary-908307171/) or follow for more cool projects. Let’s grow together as C++ warriors! 💻⚔️
