@@ -5,7 +5,8 @@ using namespace std;
 int main()
 {
     system("cls");
-    int a, b, c, d;
+    int a, b, c, d, great = 0;
+    
     cout << "Enter 1st no.: ";
     cin >> a;
     cout << "Enter 2nd no.: ";
@@ -16,13 +17,16 @@ int main()
     cin >> d;
 
     if (a > b && a > c && a > d)
-        cout << "Greatest no: " << a;
+        great = a;
     else if (b > c && b > d)
-        cout << "Greatest no: " << b;
+        great = b;
     else if (c > d)
-        cout << "Greatest no: " << c;
+        great = c;
     else
-        cout << "Greatest no: " << d;
+        great = d;
+
+    cout << "Greatest no among " << a << " " << b << " " << c << " " << d << " is : " << great << endl;
+
     cin.get();
     return 0;
 }
