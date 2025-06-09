@@ -8,9 +8,11 @@ int main()
     cout << "How many do you want to print Happy Birthday?\n";
     cin >> n;
 
+    system("cls");
+    
     while (i < n)
     {
-        cout << "Happy Birthday Aniket:)\n";
+        cout << "Happy Birthday\n";
         i++;
     }
     return 0;
