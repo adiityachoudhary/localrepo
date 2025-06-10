@@ -15,6 +15,6 @@ int main()
         fact*=i;
         i++;
     }
-    cout << "Factorial: " << fact;
+    cout << "Factorial of "<<n<<" : " << fact;
     return 0;
 }
