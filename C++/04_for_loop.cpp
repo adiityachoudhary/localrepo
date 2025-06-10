@@ -9,7 +9,7 @@ int main()
     cin >> n;
 
     for (int i = 0; i < n; i++)
-        cout << "Happy Birthday Aniket:)\n";
+        cout <<"Happy Birthday\n";
 
     return 0;
 }

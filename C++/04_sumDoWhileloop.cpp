@@ -9,7 +9,6 @@ int main()
     cout << "Enter no. to sum: ";
     cin >> n;
 
-
     do
     {
         sum += i;
