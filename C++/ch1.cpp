@@ -3,6 +3,8 @@
 // #define PI 3.14159 macros are usually defined in capital letters but this is an old method we use const int instead of macros
 using namespace std;
 
+int area(),vol(),cf(),si();  //funtion prototyping
+
 int area()
 {
     system("cls"); // system("cls") ke pahle wala sab clear ho jayega
