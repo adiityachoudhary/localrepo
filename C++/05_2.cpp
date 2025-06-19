@@ -1,12 +1,13 @@
+// Program to convert celcius to fahrenheit
+
 #include <iostream>
 using namespace std;
 
-float temp(float);
+float temp(float); // function prototyping
 
 float temp(float t)
 {
-    t = (t * 1.8) + 32;
-    return t;
+    return (t * 1.8) + 32;
 }
 
 int main()

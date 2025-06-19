@@ -1,3 +1,5 @@
+// Program to convert celcius to fahrenheit
+
 #include <iostream>
 using namespace std;
 
@@ -5,12 +7,12 @@ float force(float);
 
 float force(float mass)
 {
-    float force = mass*9.8;
-    return force;
+    return mass*9.8;
 }
 
 int main()
 {
+    system("cls");
     float mass;
     cout << "Enter mass: ";
     cin >> mass;
