@@ -12,3 +12,12 @@ git status                       - Check status
 git commit -m "First Commit"     - Commit to be pushed on Github
 git status
 git push -u origin main          -Actual uploading on cloud
+
+
+echo "# Ecommerce_Website" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/adiityachoudhary/Ecommerce_Website.git
+git push -u origin main
