@@ -19,17 +19,18 @@
             animation: gradientFade 10s infinite alternate;
             background-image: url();
         }
-        .navbar{
+
+        .navbar {
             backdrop-filter: blur(10px) saturate(180%);
         }
 
         @keyframes gradientFade {
             from {
-                background: linear-gradient(to right, #f8f9fa, #8af1ff);
+                background: linear-gradient(to right, #e8fbff, #b2f6ff);
             }
 
             to {
-                background: linear-gradient(to right, #f8f9fa, #8af1ff);
+                background: linear-gradient(to right, #e8fbff, #b2f6ff);
             }
         }
 
@@ -48,22 +49,31 @@
                 transform: translateY(0);
             }
         }
+
+        .card,
+        .card-img-top {
+            border-radius: 30px;
+        }
+        
     </style>
 </head>
 
 <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark shadow sticky-top " style="background-color: rgba(8, 156, 164, 0.627);">
-        <div class="container">
-            <a class="navbar-brand fw-bold" href="index.html">Aniket Water Store</a>
-            <button class="navbar-toggler btn btn-outline-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+    <nav class="navbar navbar-expand-lg navbar-dark fw-bold shadow-lg sticky-top"
+        style="background-color: rgba(8, 156, 164, 0.492); ">
+        <div class="container ">
+            <a class="navbar-brand " href="index.html">Aniket Water Store</a>
+            <button class="navbar-toggler  btn btn-outline-secondary btn-sm" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse " id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#products">Products</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                <ul class="navbar-nav ms-auto " >
+                    <li class="nav-item "><a class="nav-link active text-dark fs-5" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link text-dark fs-5" href="#products">Products</a></li>
+                    <li class="nav-item"><a class="nav-link text-dark fs-5" href="#contact">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link text-dark fs-5" href="cart.html">Cart</a></li>
                 </ul>
             </div>
         </div>
@@ -81,18 +91,17 @@
         <div class="container py-5 ">
             <div class="row g-4">
                 <!-- Product Card -->
-                <div class="col-md-6 col-lg-4 fade-in">
+                <div class="col-md-6 col-lg-4 fade-in ">
                     <div class="card h-100 shadow-lg">
-                        <img src="https://www.chemcogroup.com/wp-content/uploads/2022/06/Banner-Image_600-x-400px-20ltr-2.webp"
-                            class="card-img-top" width="300px" height="200px" alt="20LWaterbottle">
-                        <div class="card-body d-flex flex-column">
-                            <h5 class="card-title">20L Water bottle</h5>
-                            <p class="card-text text-primary fw-semibold">Rs 90
+                        <img src="img/20l.jpg" class="card-img-top" alt="20LWaterbottle">
+                        <div class="card-body d-flex flex-column ">
+                            <h5 class="card-title fw-bold">20 litre Water Jar</h5>
+                            <p class="card-text text-primary fw-semibold">Rs 50
                             <div class="mt-auto">
                                 <div class="input-group mb-3">
                                     <input type="number" min="1" value="1" class="form-control" aria-label="Quantity">
                                     <button class="btn btn-success"
-                                        onclick="addToCart('Jar of 20L Water', 99.99, this.parentElement.querySelector('input').value)">
+                                        onclick="addToCart('Jar of 20L Water', 50, this.parentElement.querySelector('input').value)">
                                         <i class="bi bi-cart"></i> Add to Cart
                                     </button>
                                 </div>
@@ -104,16 +113,15 @@
                 <!-- Product Card -->
                 <div class="col-md-6 col-lg-4 fade-in" id="products">
                     <div class="card h-100 shadow-lg">
-                        <img src="https://everydaysure.in/water/assets/media/bisleri-2ltr.jpg" class="card-img-top"
-                            width="300px" height="200px" alt="20LWaterbottle">
+                        <img src="img/2l.jpg" class="card-img-top" alt="20LWaterbottle">
                         <div class="card-body d-flex flex-column">
-                            <h5 class="card-title">2L Water bottle</h5>
-                            <p class="card-text text-primary fw-semibold">Rs 30
+                            <h5 class="card-title fw-bold">2 litre Water bottle</h5>
+                            <p class="card-text text-primary fw-semibold">Rs 25
                             <div class="mt-auto">
                                 <div class="input-group mb-3">
                                     <input type="number" min="1" value="1" class="form-control" aria-label="Quantity">
                                     <button class="btn btn-success"
-                                        onclick="addToCart('Bottle of 2L Water', 99.99, this.parentElement.querySelector('input').value)">
+                                        onclick="addToCart('Bottle of 2L Water', 25, this.parentElement.querySelector('input').value)">
                                         <i class="bi bi-cart"></i> Add to Cart
                                     </button>
                                 </div>
@@ -125,22 +133,31 @@
                 <!-- Product Card -->
                 <div class="col-md-6 col-lg-4 fade-in">
                     <div class="card h-100 shadow-lg">
-                        <img src="https://everydaysure.in/water/assets/media/bisleri-1ltr.jpg" class="card-img-top"
-                            width="300px" height="200px" alt="20LWaterbottle">
+                        <img src="img/1l.jpg" class="card-img-top" alt="20LWaterbottle">
                         <div class="card-body d-flex flex-column">
-                            <h5 class="card-title">1L Water bottle</h5>
-                            <p class="card-text text-primary fw-semibold">Rs 20
+                            <h5 class="card-title fw-bold">1 litre Water bottle</h5>
+                            <p class="card-text text-primary fw-semibold">Rs 15
                             <div class="mt-auto">
                                 <div class="input-group mb-3">
                                     <input type="number" min="1" value="1" class="form-control" aria-label="Quantity">
                                     <button class="btn btn-success"
-                                        onclick="addToCart('Bottle of 1L Water', 99.99, this.parentElement.querySelector('input').value)">
+                                        onclick="addToCart('Bottle of 1L Water', 15, this.parentElement.querySelector('input').value)">
                                         <i class="bi bi-cart"></i> Add to Cart
                                     </button>
                                 </div>
                             </div>
                         </div>
                     </div>
+                </div>
+
+                <br><br>
+                <div class="container mt-5">
+                    <h2 class="text-center fw-bold" id="cart-total">Proceed to Cart to Checkout</h2>
+
+                    <a href="cart.html" class="row p-4 link-underline link-underline-opacity-0">
+                        <button type="button" class="btn btn-success btn-lg btn-block fw-bold ">Go to
+                            Cart</button></a>
+
                 </div>
 
 
@@ -150,30 +167,48 @@
 
         <!-- Footer -->
 
-        <footer class=" row align-items-center bg-dark text-light text-center py-4 mt-5 " id="contact">
+        <footer class=" row align-items-center bg-black text-light text-center py-4 mt-5 " id="contact"
+            style="background-color: #f5f5f5; padding: 30px 20px; text-align: center; font-family: Arial, sans-serif; font-size: 14px; color: #333;">
 
             <div class="col-lg-9 order-2 order-lg-1 pt-3">
-                <p class="mb-1">&copy; 2025 Aniket Water Store. All rights reserved.</p>
-                <p class="mb-0">Contact us: <a href="mailto:aniketkr853@gmail.com" class="text-info">aniketkr853@gmail.com</a> |
-                    Phone:
-                    +91 8539993163</p>
-                <p class="mb-0">Address: Patel Nagar, Patna 800023</p>
+                <strong>© 2025 Aniket Water Store. All rights reserved.</strong><br>
+                💧 <em>Delivering Purity</em><br><br>
+
+                <p class="mb-0">📍Address: Patel Nagar, Patna 800023</p><br>
+
+                <p>📞 Customer Support: <a href="tel:+918539993163"
+                        style="color: #0066cc; text-decoration: none;">+918539993163</a> |
+                    ✉️Email:<a href="mailto:aniketkr853@gmail.com"
+                        style="color: #0066cc; text-decoration: none;">aniketkr853@gmail.com</a></p> <br>
+
+                🔒 100% Secure Payments | 🚚 Fast & Reliable Delivery | ♻️ Eco-Friendly Packaging<br><br>
+                <div>Developed with lots of ☕ by <a href="https://adiityachoudhary.github.io/web-dev/"
+                        target="_blank">Aditya Choudhary</a></div>
+
 
             </div>
             <div class="col-lg-3 order-1 order-lg-2"><iframe
                     src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d652.863485811403!2d85.09551474130052!3d25.618569320281733!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1750364845693!5m2!1sen!2sin"
-                    width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+                    width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy"
                     referrerpolicy="no-referrer-when-downgrade"></iframe></div>
-
 
         </footer>
 
         <!-- Cart Script -->
         <script>
             function addToCart(name, price, quantity) {
+                const cart = JSON.parse(localStorage.getItem("cart")) || [];
+                const existing = cart.find(item => item.name === name);
+                if (existing) {
+                    existing.quantity += parseInt(quantity);
+                } else {
+                    cart.push({ name, price, quantity: parseInt(quantity) });
+                }
+                localStorage.setItem("cart", JSON.stringify(cart));
                 alert(`${quantity} x ${name} added to cart.`);
             }
         </script>
+
 
 
     </div>
