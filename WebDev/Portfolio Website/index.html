@@ -30,7 +30,7 @@
 
 <body>
     <!-- Main container -->
-    <div class="container-fluid gx-0">
+    <div id="home" class="container-fluid gx-0">
         <!-- Navbar -->
         <!-- Fancy Navbar -->
         <nav class="navbar navbar-expand-lg navbar-glass navbar-sticky">
@@ -87,9 +87,9 @@
                 <!-- four card -->
                 <div class="row row-cols-1 row-cols-md-2 g-4 p-1 ">
                     <!-- TO-DO card card-3 -->
-                    <div class="col order-3">
+                    <div class="col order-4">
                         <div class="card">
-                            <a href="To-do list\index.html" target="_blank" class="text-decoration-none"><img
+                            <a href="todo/index.html" target="_blank" class="text-decoration-none"><img
                                     src="pic/todo.jpeg" class="card-img-top p-1" alt="to-do thumb">
                                 <div class="card-body text-dark">
                                     <h5 class="card-title ">TO-DO LIST</h5>
@@ -102,7 +102,7 @@
                     </div>
 
                     <!-- Resume card card-1 -->
-                    <div class="col order-1">
+                    <div class="col order-first">
                         <div class="card">
                             <a href="Resume.html" target="_blank" class="text-decoration-none"><img src="pic/resume.png"
                                     class="card-img-top p-1" alt="pic_resume">
@@ -119,14 +119,15 @@
                     </div>
 
                     <!-- Ecommerce Water app card-1 -->
-                    <div class="col order-2">
+                    <div class="col order-0">
                         <div class="card">
                             <a href="https://adiityachoudhary.github.io/Ecommerce_Website/" target="_blank"
                                 class="text-decoration-none"><img src="pic/ecomm.jpeg" class="card-img-top p-1"
                                     alt="pic_resume">
                                 <div class="card-body  text-dark">
                                     <h5 class="card-title">E-Commerce Website</h5>
-                                    <p class="card-text text-muted">Modern e-commerce website which features smooth navigation, add-to-cart functionality, quantity
+                                    <p class="card-text text-muted">Modern e-commerce website which features smooth
+                                        navigation, add-to-cart functionality, quantity
                                         management, and a consistent layout.
                                         .</p>
                                 </div>
@@ -135,9 +136,24 @@
                         </div>
                     </div>
 
+                    <!-- Puzzle game card-1 -->
+                    <div class="col order-1">
+                        <div class="card">
+                            <a href="puzzle/puzzle.html" target="_blank" class="text-decoration-none"><img
+                                    src="puzzle/puzzle.jpg" class="card-img-top p-1" alt="pic_resume">
+                                <div class="card-body  text-dark">
+                                    <h5 class="card-title">Jigsaw Puzzle</h5>
+                                    <p class="card-text text-muted"> Fun & Challenging Jigsaw Puzzle
+                                        Relax, unwind, and sharpen your mind with this high-quality puzzle.</p>
+                                </div>
+                            </a>
 
-                    <!-- Ludo card card-2 -->
-                    <div class="col order-4">
+                        </div>
+                    </div>
+
+
+                    <!-- Pacman card card-2 -->
+                    <div class="col order-2">
                         <div class="card">
                             <a href="pacman.html" target="_blank" class="text-decoration-none">
                                 <img src="pic/pacman.png" class="card-img-top p-1" alt="pic_ludo">
@@ -152,8 +168,8 @@
                         </div>
                     </div>
 
-                    <!-- Chess card card-3 -->
-                    <div class="col order-5">
+                    <!-- Chessboard card-3 -->
+                    <div class="col order-last">
                         <div class="card">
                             <a href="chess.html" target="_blank" class="text-decoration-none"><img src="pic/chess.png"
                                     class="card-img-top p-1" alt="pic_chessboard">
@@ -169,6 +185,23 @@
 
                         </div>
                     </div>
+
+                    <!-- word counter card-3 -->
+                    <div class="col order-3">
+                        <div class="card">
+                            <a href="word_counter/index.html" target="_blank" class="text-decoration-none"><img src="word_counter/word_counter.jpg"
+                                    class="card-img-top p-1" alt="pic_chessboard">
+                                <div class="card-body text-dark">
+                                    <h5 class="card-title">WORD COUNTER</h5>
+                                    <p class="card-text text-muted">A simple and efficient tool to count words, letters, and spaces in real-time. Built to boost productivity and track content length instantly.
+                                    </p>
+                                </div>
+                            </a>
+
+                        </div>
+                    </div>
+
+                    <!-- card end -->
 
 
                 </div>
@@ -203,8 +236,8 @@
 
 
                 <!-- Photo footer circle -->
-                <div class="col-lg-3 col-12 pt-2"><img src="pic/Photosquare.jpg" alt="Display picture"
-                        class="rounded-circle img-fluid img-thumbnail"></div>
+                <div class="col-lg-3 col-12 pt-2"><a href="index.html#home"><img src="pic/Photosquare.jpg"
+                            alt="Display picture" class="rounded-circle img-fluid img-thumbnail"></a></div>
             </ul>
         </footer>
 
