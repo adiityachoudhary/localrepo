@@ -10,9 +10,9 @@ html {
 
 .navbar-glass {
     backdrop-filter: blur(10px);
-    background-color: rgba(255, 255, 255, 0.7);
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.241);
+    background-color: rgba(255, 255, 255, 0.26);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.208);
+    /* border-bottom: 1px solid rgba(255, 255, 255, 0.241); */
 }
 
 .navbar-nav .nav-link {
@@ -54,11 +54,25 @@ html {
 }
 
 
+/* animation of resume photo */
+.hover-shadow-box-animation {
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  transition-duration: 0.3s;
+  transition-property: box-shadow, transform;
+}
+.hover-shadow-box-animation:hover,
+.hover-shadow-box-animation:focus,
+.hover-shadow-box-animation:active {
+  box-shadow: 1px 10px 100px -10px rgba(0, 0, 24, 0.5);
+  transform: scale(1.05);
+}
+
 
 
 
 /* footer image */
-.img-fluid {
+.photo-footer {
     width: 100px;
     height: 100px;
     box-shadow: 0px 0px 25px rgb(255, 255, 255);
@@ -69,7 +83,7 @@ html {
 }
 
 /* footer background */
-footer {
+.footer-home {
     background-image: url("pic/blue.jpg");
     height: 100%;
     background-position: center;
@@ -85,7 +99,7 @@ footer {
 }
 
 /* main background color */
-.container-fluid {
+#home {
     /* background-color: rgb(211, 211, 211); */
     background-image: url("pic/bg.jpg");
     height: 100%;
@@ -209,3 +223,5 @@ footer {
     .discover{
         text-shadow:#000000 2px 2px 8px ;
     }
+
+    
