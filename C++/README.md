@@ -33,8 +33,17 @@ This repository was created to:
 
 ## 📌 Let's Connect
 
-If you find this helpful or inspiring, give the repo a ⭐ and feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/aditya-choudhary-908307171/) or follow for more cool projects. Let’s grow together as C++ warriors! 💻⚔️
+If you find this helpful or inspiring, give the repo a ⭐ and feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/adiityachoudhary/) or follow for more cool projects. Let’s grow together as C++ warriors! 💻⚔️
 
 ---
 
 > “Code is like humor. When you have to explain it, it’s bad.” – Cory House
+
+## 📬 Contact Me
+
+I'm always open to new opportunities, collaborations, and exciting tech discussions!
+
+- 📧 Email: [adiiityachoudhary@gmail.com](mailto:adiiityachoudhary@gmail.com)
+- 💼 LinkedIn: [linkedin.com/in/aditya](https://www.linkedin.com/in/adiityachoudhary/)
+- 🐙 GitHub: [github.com/aditya](https://adiityachoudhary.github.io/web-dev/)
+- 🌐 Website: [aditya.com](https://adiityachoudhary.github.io/web-dev/)
