@@ -49,7 +49,7 @@ I'm a passionate **Web Developer** and **C++ Programmer** from India 🇮🇳, b
 
 I'm always open to new opportunities, collaborations, and exciting tech discussions!
 
-- 📧 Email: [adiiityachoudhary@gmail.com](mailto:adiiityachoudhary@gmail.com)
+- 📧 Email: [caditya965@gmail.com](mailto:caditya965@gmail.com)
 - 💼 LinkedIn: [linkedin.com/in/adiityachoudhary](https://www.linkedin.com/in/adiityachoudhary/)
 - 🐙 GitHub: [github.com/adiityachoudhary](https://github.com/adiityachoudhary)
 - 🌐 Website: [Portfolio](https://adiityachoudhary.github.io/web-dev/)
