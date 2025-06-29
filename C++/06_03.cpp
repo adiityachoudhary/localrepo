@@ -1,11 +1,11 @@
 #include <iostream>
 using namespace std;
-int callbyreference(int *);
+void callbyreference(int *);
 
-int callbyreference(int *x)
+void callbyreference(int *x)
 {
-    return *x *= 10; // x=x*10
-} // a=5*10
+    *x *= 10; // x=x*10
+}             // a=5*10
 
 int main()
 {
