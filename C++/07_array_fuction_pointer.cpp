@@ -6,7 +6,7 @@ void printarray(int* x, int y)
 {
     for (int i = 0; i < y; i++)
     {
-        x[i]+=10;
+        x[i]+=10; //adding 10 in each element of array[]
     }
 }
 

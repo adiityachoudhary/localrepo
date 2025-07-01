@@ -9,7 +9,7 @@ int main()
 
     for (int i = 0; i< 5; i++)
     {
-        cout << "Address at " << i << " : " << *p << endl;
+        cout << "Address at index " << i << " : " << *p << endl;
         p++;
     }
     return 0;
