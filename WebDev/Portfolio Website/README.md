@@ -3,7 +3,7 @@
 Welcome to my personal portfolio website! This is where I showcase my skills, projects, and experience as a passionate developer and lifelong learner. The website is built to reflect my personality, professionalism, and journey in tech.
 
 ## 🚀 Live Preview
-👉 [Visit My Portfolio](https://adiityachoudhary.github.io/web-dev/)
+👉 [Visit My Portfolio](https://adiityachoudhary.github.io/portfolio/)
 
 ---
 
@@ -40,7 +40,7 @@ I'm always open to new opportunities, collaborations, and exciting tech discussi
 - 📧 Email: [adiiityachoudhary@gmail.com](mailto:adiiityachoudhary@gmail.com)
 - 💼 LinkedIn: [linkedin.com/in/aditya](https://www.linkedin.com/in/adiityachoudhary/)
 - 🐙 GitHub: [github.com/aditya](https://github.com/adiityachoudhary)
-- 🌐 Website: [aditya.com](https://adiityachoudhary.github.io/web-dev/)
+- 🌐 Website: [aditya.com](https://adiityachoudhary.github.io/portfolio/)
 
 ---
 

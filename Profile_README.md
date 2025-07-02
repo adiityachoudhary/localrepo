@@ -45,8 +45,8 @@ I'm a detail-oriented and driven developer based in India 🇮🇳, focused on c
 
 > Explore some of my proudest creations
 
-### 🎨 [🌐 Portfolio Website](https://adiityachoudhary.github.io/web-dev/)
->Live preview 👉 [Visit My Portfolio](https://adiityachoudhary.github.io/web-dev/).  
+### 🎨 [🌐 Portfolio Website](https://adiityachoudhary.github.io/portfolio/)
+>Live preview 👉 [Visit My Portfolio](https://adiityachoudhary.github.io/portfolio/).  
 > A fully responsive personal site showcasing my work and growth.
 
 ### 💻 C++ Development Hub
@@ -72,7 +72,7 @@ I'm a detail-oriented and driven developer based in India 🇮🇳, focused on c
   <a href="mailto:caditya965@gmail.com"><img src="https://img.shields.io/badge/-Email-red?style=for-the-badge&logo=gmail&logoColor=white"></a>
   <a href="https://www.linkedin.com/in/adiityachoudhary/"><img src="https://img.shields.io/badge/-LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white"></a>
   <a href="https://github.com/adiityachoudhary"><img src="https://img.shields.io/badge/-GitHub-black?style=for-the-badge&logo=github&logoColor=white"></a>
-  <a href="https://adiityachoudhary.github.io/web-dev/"><img src="https://img.shields.io/badge/-Portfolio-orange?style=for-the-badge&logo=react&logoColor=white"></a>
+  <a href="https://adiityachoudhary.github.io/portfolio/"><img src="https://img.shields.io/badge/-Portfolio-orange?style=for-the-badge&logo=react&logoColor=white"></a>
 </p>
 
 ---
