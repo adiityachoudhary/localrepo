@@ -1,6 +1,6 @@
 #include <iostream>
 #include <cstdlib>
-#include <ctime> //fir time(0) in     srand(time(0)); to get random no. each time we have to used srand(time(0)) otherwise it will give same no. everytime
+#include <ctime> //first time(0) in     srand(time(0)); to get random no. each time we have to used srand(time(0)) otherwise it will give same no. everytime
 #include <windows.h>
 
 using namespace std;

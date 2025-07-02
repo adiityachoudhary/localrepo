@@ -12,8 +12,7 @@ int main()
     int guess, attempt = 0;
     srand(time(0));                  // initialize random no.
     int random = (rand() % 100) + 1; // random no. by dividing by 100 and gives no. between 1-99 therefore +1
-    cout << random << "\n";
-
+    // cout << random << "\n";
 
     do
     {
