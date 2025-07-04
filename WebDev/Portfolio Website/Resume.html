@@ -38,14 +38,21 @@
         .img-thumbnail {
             box-shadow: 0px 0px 15px rgb(255, 255, 255);
         }
-        
+
+        @media (min-width: 768px) {
+            .img-large {
+                width: 200px;
+                /* You can adjust this size */
+                height: auto;
+            }
+        }
     </style>
 </head>
 
 <body id="about">
     <nav class="navbar navbar-expand-lg navbar-glass navbar-sticky">
         <div class="container">
-                <a class="navbar-brand" href="index.html#home"><img src="pic/adi.png" alt="logo" height="40px" ></a>
+            <a class="navbar-brand" href="index.html#home"><img src="pic/adi.png" alt="logo" height="40px"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarFancy"
                 aria-controls="navbarFancy" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -79,20 +86,24 @@
                 <div class="col-lg-3" style="background-color: #282828;">
 
                     <!-- Photo -->
+                    <div class="row my-4">
 
-                    <div class="row px-5 text-center text-light">
+                         <div class="col-4 col-md-5 col-lg-12  m-auto p-4 text-center text-light">
                         <div>
                             <img src="pic/Photosquare.jpg" alt="Display Picture"
-                                class="img-thumbnail rounded-circle my-5  border-5 border-light hover-shadow-box-animation">
+                                class="img-thumbnail rounded-circle  img-large border border-light hover-shadow-box-animation ">
                         </div>
                     </div>
 
-                    <!-- Show on Mobile devices only -->
-                    <div class="d-md-block d-lg-none text-center mb-5 ">
+                    <!-- Show Name on Mobile devices only -->
+                    <div class="col-8 col-md-7 m-auto d-md-block d-lg-none text-center">
                         <h1 class="text-white fw-bold ">ADITYA CHOUDHARY</h1>
                         <h4 class="text-secondary">WEB DEVELOPER</h4>
+                        
                     </div>
 
+                    </div>
+                   
                     <!--Contact-->
                     <div class="row text-white pb-5" id="contact">
                         <div>

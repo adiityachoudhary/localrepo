@@ -9,6 +9,5 @@ int main()
     {
         cout <<"Array at index "<<i-1<<" is "<<a[i-1] << endl;
     }
-
     return 0;
 }
