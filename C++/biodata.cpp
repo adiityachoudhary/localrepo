@@ -8,12 +8,13 @@ int main()
 
     string name;
     int age, phone;
-    cout << "Enter Your details: \n";
+    cout << "Enter Your details:- \n";
     cout << "Name: ";
-    cin.ignore(); //agar iske pehle cin>>name use hua hai to blankspace ko ignore karne ke liye cin.ignore(); use  kiye hain
     getline(cin, name);  // this will store the full name with blankspace in variable name with blankspace
+  
     cout << "Age: ";
     cin >> age;
+
     cout << "Phone: ";
     cin >> phone;
 
