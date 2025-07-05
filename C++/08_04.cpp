@@ -2,7 +2,7 @@
 using namespace std;
 
 char* slice(char*, int, int);
-char* slice(char* str, int m, int n)
+char* slice(char str[], int m, int n)
 {
     char *ptr1 = &str[m];
     char *ptr2 = &str[n];
