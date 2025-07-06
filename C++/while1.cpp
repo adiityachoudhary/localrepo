@@ -10,8 +10,9 @@ int main()
     cin >> n;
     while (i <= n)
     {
-        cout << i*5<<endl;
+        cout << i * 5 << endl;
         i++;
     }
+    cin.get();
     return 0;
 }

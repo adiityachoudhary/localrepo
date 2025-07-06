@@ -10,10 +10,13 @@ typedef struct
 } emp; // now emp is a struct data type
 
 int main()
-{
+{   //typedef datatype
     typedef int aditya; // renaming int as aditya temporarily
     aditya a = 100;     // alias for int
-    cout << a << endl;
+    aditya b=50;
+    aditya c;
+    c=a+b;
+    cout << "Sum of "<<a<<" & "<<b<<": "<<c << endl;
 
     emp e1,e2;//typedef struct datatype emp
     e1 = {123, "Harry Bhai", 50000};

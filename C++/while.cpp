@@ -1,6 +1,4 @@
 #include <iostream>
-#include<stdlib.h>
-#include<conio.h>
 using namespace std;
 int main()
 {
@@ -16,7 +14,7 @@ int main()
         cout << t << " x " << index << " = " << t * index << endl;
         index = index + 1;
     }
-    getch();
+    cin.get();
     system("cls");
     return 0;
 }

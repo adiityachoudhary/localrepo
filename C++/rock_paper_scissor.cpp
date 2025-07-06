@@ -57,10 +57,11 @@ int main()
         // Try again
         cout << endl
              << endl
-             << "Press 1 to play again: ";
+             << "Press 1 to play again 0 to terminate : ";
         cin >> again;
     } while (again == 1);
 
     system("cls");
+    cin.get();
     return 0;
 }

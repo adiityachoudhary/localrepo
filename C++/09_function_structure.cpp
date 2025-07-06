@@ -1,20 +1,18 @@
 #include <iostream>
 using namespace std;
 
-void show(struct employee); //function prototyping
+void show(struct employee); // function prototyping
 
-// details of 3 employees using structure array
 struct employee
 {
-    int code; // this declares an new user defined data type
+    int code;
     string name;
     int salary;
-}; // semicolon is important
+};
 
-
-void show(struct employee e)
+void show(employee e) //function
 {
-    cout<<e.code<<", "<<e.name<<", "<<e.salary;
+    cout << e.code << ", " << e.name << ", " << e.salary;
 }
 
 int main()
