@@ -55,9 +55,7 @@ int main()
             cout << "\nSystem WINS!!\nAreey Computer se haar gya re tu lol";
 
         // Try again
-        cout << endl
-             << endl
-             << "Press 1 to play again 0 to terminate : ";
+        cout<< "\n\nPress 1 to play again 0 to terminate : ";
         cin >> again;
     } while (again == 1);
 
