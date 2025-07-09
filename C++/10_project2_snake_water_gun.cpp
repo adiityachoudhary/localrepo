@@ -19,7 +19,7 @@ void choice(string s, int n) //choice function
     else if (n == 3)
         cout << s << "'s choice is GUN\n";
 }
-void think()
+void think()// thinking animation
 {
     for (int i = 0; i < 10; i++)
     {

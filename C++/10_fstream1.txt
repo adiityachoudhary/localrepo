@@ -1,0 +1,2 @@
+New text writing in a file 
+using filehandling in c++ 
