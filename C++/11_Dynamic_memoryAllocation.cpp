@@ -17,6 +17,7 @@ int main()
     {
         cout << "ptr [" << i << "] : " << ptr[i] << endl;
     }
+    free(ptr); //freed allocated memory
 
     return 0;
 }
