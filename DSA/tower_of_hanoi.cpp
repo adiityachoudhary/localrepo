@@ -17,7 +17,7 @@ int main()
     int from_tower = 1;
     int using_tower = 2;
     int to_tower = 3;
-
+    cout<<"Steps to solve the Tower of Hanoi problem:- \n";
     toh(no_of_discs, from_tower, using_tower, to_tower);
     return 0;
 }
