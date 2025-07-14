@@ -8,7 +8,7 @@ void printNo(int n)
         return;
     }
     cout << n << ", ";
-    return printNo(n - 1); // recursive function
+    printNo(n - 1); // recursive function
 }
 
 int main()
