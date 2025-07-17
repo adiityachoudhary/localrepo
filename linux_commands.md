@@ -65,11 +65,12 @@
 * ### Clear the terminal
     >clear 🠊 clears the terminal
 
-### Write in a file using Vim editory
->vim file.txt 🠊 opens the file.txt in vim editor
-```yaml 
-press i: to start typing in file.txt
-press esc: to finish editing
-:wq : To save and quit
-:q! : TO quit without saving
-```
+* ### Write in a file using VIM editor
+    >vim file.txt 🠊 opens the file.txt in vim editor
+    ```yaml 
+    press i: to start typing in file.txt
+    press esc: to finish editing
+    :wq : To save and quit
+    :q! : TO quit without saving
+    ```
+## 👨‍💻 Author 🠊 **Aditya Choudhary**
