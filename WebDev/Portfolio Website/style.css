@@ -3,6 +3,9 @@
     background: #f8f9fa;
     margin: 0;
 }
+.toptext{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
 
 html {
     scroll-behavior: smooth;
