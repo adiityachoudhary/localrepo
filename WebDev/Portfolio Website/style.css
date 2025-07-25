@@ -3,8 +3,9 @@
     background: #f8f9fa;
     margin: 0;
 }
-.toptext{
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+.toptext {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 html {
@@ -13,7 +14,8 @@ html {
 
 .navbar-glass {
     backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px); /* Safari support */
+    -webkit-backdrop-filter: blur(10px);
+    /* Safari support */
     background-color: rgba(255, 255, 255, 0.26);
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.208);
     /* border-bottom: 1px solid rgba(255, 255, 255, 0.241); */
@@ -60,16 +62,17 @@ html {
 
 /* animation of resume photo */
 .hover-shadow-box-animation {
-  transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
-  transition-duration: 0.3s;
-  transition-property: box-shadow, transform;
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px transparent;
+    transition-duration: 0.3s;
+    transition-property: box-shadow, transform;
 }
+
 .hover-shadow-box-animation:hover,
 .hover-shadow-box-animation:focus,
 .hover-shadow-box-animation:active {
-  box-shadow: 1px 10px 100px -10px rgba(0, 0, 24, 0.5);
-  transform: scale(1.05);
+    box-shadow: 1px 10px 100px -10px rgba(0, 0, 24, 0.5);
+    transform: scale(1.05);
 }
 
 
@@ -160,6 +163,17 @@ html {
     border-radius: 20px;
 }
 
+.card:hover,
+.navbar-brand:hover {
+    transform: scale(1.02);
+    transition: transform 0.5s ease-in-out;
+}
+
+.top-bar:hover {
+    transform: scale(1.2);
+    transition: transform 0.3s ease-in-out;
+}
+
 /* card image corner roundness */
 .card-img-top {
     border-radius: 20px 20px 0px 0px;
@@ -175,57 +189,63 @@ html {
 
 /* description */
 .hero-section {
-      min-height: 100vh;
-      background: linear-gradient(135deg, #f8f9fa, #ffffff);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      padding: 3rem 1rem;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #f8f9fa, #ffffff);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem 1rem;
+}
+
+.hero-box {
+    background-color: rgba(255, 255, 255, 0.145);
+    padding: 3rem;
+    border-radius: 1.5rem;
+    box-shadow: 0 0.5rem 2rem rgba(0, 0, 0, 0.1);
+    text-align: center;
+    animation: fadeIn 1.2s ease-in;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
     }
 
-    .hero-box {
-      background-color: rgba(255, 255, 255, 0.145);
-      padding: 3rem;
-      border-radius: 1.5rem;
-      box-shadow: 0 0.5rem 2rem rgba(0, 0, 0, 0.1);
-      text-align: center;
-      animation: fadeIn 1.2s ease-in;
+    to {
+        opacity: 1;
+        transform: translateY(0);
     }
+}
 
-    @keyframes fadeIn {
-      from { opacity: 0; transform: translateY(30px); }
-      to { opacity: 1; transform: translateY(0); }
-    }
+.hero-title {
+    font-size: 2.75rem;
+    font-weight: 700;
+    color: #212529;
+}
 
+.hero-subtitle {
+    font-size: 1.5rem;
+    color: #6c757d;
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.hero-description {
+    font-size: 1.1rem;
+    color: #343a40;
+}
+
+@media (max-width: 576px) {
     .hero-title {
-      font-size: 2.75rem;
-      font-weight: 700;
-      color: #212529;
+        font-size: 2rem;
     }
 
     .hero-subtitle {
-      font-size: 1.5rem;
-      color: #6c757d;
-      margin-top: 0.5rem;
-      margin-bottom: 1.5rem;
-    }
-
-    .hero-description {
-      font-size: 1.1rem;
-      color: #343a40;
-    }
-
-    @media (max-width: 576px) {
-      .hero-title {
-        font-size: 2rem;
-      }
-      .hero-subtitle {
         font-size: 1.2rem;
-      }
     }
+}
 
-    .discover{
-        text-shadow:#000000 2px 2px 8px ;
-    }
-
-    
+.discover {
+    text-shadow: #000000 2px 2px 8px;
+}
