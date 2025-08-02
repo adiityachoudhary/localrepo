@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
 void toh(int, int, int, int);
+
 void toh(int n, int a, int b, int c)
 {
     if (n > 0)
