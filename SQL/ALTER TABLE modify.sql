@@ -1,0 +1,5 @@
+-- ALTER TABLE users MODIFY COLUMN is_active BOOLEAN AFTER id
+-- ALTER TABLE users MODIFY COLUMN email varchar(50) FIRST;
+ALTER TABLE users MODIFY COLUMN id INT NOT NULL AUTO_INCREMENT;
+
+select *from users;

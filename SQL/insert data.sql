@@ -1,0 +1,20 @@
+INSERT INTO users (name, gender, dob,email,is_active, salary)
+VALUES
+('GEMINI','Female','2024-04-06','gemini@gmail.com',TRUE,60000),
+('SIRI','Female','2014-05-06','siri@gmail.com',TRUE,55000),
+('MELONI','Female','2014-05-06','meloni@gmail.com',TRUE,500600),
+('DONALD','Male','2014-05-06','donald@gmail.com',TRUE,90000),
+('MODI','Male','2014-05-06','modi@gmail.com',TRUE,30000),
+('SURESH','Male','2014-05-06','suresh@gmail.com',TRUE,40000),
+('RAMESH','Male','2014-05-06','ramesh@gmail.com',TRUE,45455),
+('RAJNATH','Male','2014-05-06','rajnath@gmail.com',TRUE,64464),
+('MK STALIN','Male','2014-05-06','stalin@gmail.com',TRUE,48784),
+('PUTIN','Male','2014-05-06','putin@gmail.com',TRUE,457852),
+('ZELENSKY','Male','2014-05-06','zelensky@gmail.com',TRUE,95000),
+('MACRON','Male','2014-05-06','macron@gmail.com',TRUE,85222),
+('JUSTIN','Male','2014-05-06','justin@gmail.com',TRUE,46253),
+('SALMAN','Male','2014-05-06','salmaan@gmail.com',TRUE,715000),
+('HAFIZ SAEED','Male','2014-05-06','saeed@gmail.com',TRUE,1000999),
+('USMAAN ALAM','Male','2014-05-06','alam@gmail.com',TRUE,9999999),
+('SEIKH','Male','2014-05-06','seikh@gmail.com',TRUE,465875),
+('AISHA','Female','2014-05-06','aisha@gmail.com',TRUE,987654321);
