@@ -7,6 +7,12 @@ while (num > 0) {
 }
 
 //print table 
-for( let i =1; i<=10;i++ ){
-    console.log(i*5);
+for (let i = 1; i <= 10; i++) {
+    console.log(i * 5);
 }
+
+let x=0;
+do {
+    console.log("This will run at least once "+ x);
+    x++;
+} while (x <=5);
