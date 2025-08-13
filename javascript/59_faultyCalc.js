@@ -41,8 +41,8 @@ function faultycalculator(n1, n2, operator) {
 
 //taking inputs from user
 let num1 = parseFloat(prompt("Enter first number: "));
-let num2 = parseFloat(prompt("Enter second number: "));
 let op = prompt("Enter operation: + ,- ,* ,/ ");
+let num2 = parseFloat(prompt("Enter second number: "));
 
 //function call with actual parameters
 let result = faultycalculator(num1, num2, op);
