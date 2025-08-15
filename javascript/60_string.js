@@ -38,7 +38,13 @@ let s = "CodeWithHarry";
 console.log(s.toUpperCase()); //this is a function requires ()
 console.log(s.toLowerCase()); //this is a function requires () 
 
-console.log(s.length);  //this is property 
+
+
+
+console.log(`Length of string ${s} : ${s.length}`);  //this is property 
+
+
+
 
 console.log(s.slice(0, 4));  //this will print character  from 0 to 3
 console.log(s.slice(4, 8));  //this will print character  from 4 to 7
