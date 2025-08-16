@@ -49,3 +49,6 @@ console.log(c.concat(d,e)); // concatenate the given array
 
 let f=[1,2,3,4,5];
 console.log(f.reverse()); //reverses the array
+
+
+ 
