@@ -9,6 +9,7 @@ int main()
     {
         cout << "Value of i : " << i<<endl;
         i++;
+        break;//remove break to run infinite loop
     }
     return 0;
 }
