@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document object model</title>
+    <style>
+        .box {
+            height: 40px;
+            width: 50px;
+            background-color: red;
+            border: 5px solid black;
+            margin: 5px;
+            padding: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            color: white;
+        }
+
+        .container,
+        .table {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <center>
+        <h1>Document object model</h1>
+    </center>
+    <div class="container">
+        <div class="box">Box1</div>
+        <div class="box">Box2</div>
+        <div class="box">Box3</div>
+        <div class="box">Box4</div>
+        <div class="box">Box5</div>
+    </div>
+    <div class="table">
+        <table border="2" cellpadding="10" cellspacing="2" width="50%">
+            <caption style="font-weight: bold;">Table</caption>
+
+            <tr bgcolor="teal" color="white">
+                <th>S.No</th>
+                <th>Brand</th>
+                <th>Model</th>
+                <th>Price</th>
+            </tr>
+
+            <tr>
+                <td>1</td>
+                <td>Maruti</td>
+                <td>Swift</td>
+                <td>8 L</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Hyundai</td>
+                <td>i10</td>
+                <td>5.9 L</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Tata</td>
+                <td>Tiago</td>
+                <td>5 L</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Maruti</td>
+                <td>Wagon R</td>
+                <td>5 L</td>
+            </tr>
+
+        </table>
+    </div>
+    <script src="66_dom_bom.js"></script>
+</body>
+
+</html>

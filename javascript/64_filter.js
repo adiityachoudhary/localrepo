@@ -1,5 +1,8 @@
 //array.fiter(function=>{});      creates a new array if the condition satisfies
 let marks = [70, 50, 40, 60, 80];
+//            a   b                    a+b=120
+//                a  b                  here a is 120 and b=40 and so on..............
+
 
 let first = marks.filter(element=>{
     return element>=60;
