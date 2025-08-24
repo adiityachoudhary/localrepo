@@ -16,13 +16,13 @@
         fieldset {
             background-color: white;
             border: 2px solid skyblue;
-            border-radius: 20px;
+            border-radius: 10px;
             box-shadow: 15px 20px 25px rgb(84, 129, 147);
         }
         legend{
             padding: 5px;
             background-color: skyblue;
-            border-radius: 10px;
+            border-radius: 7px;
             box-shadow: 2px 2px 2px rgb(83, 126, 143);
             color: white;
             font-weight: bold;
@@ -33,17 +33,17 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            padding: 15px;
         }
+    
     </style>
 </head>
 
 <body>
-    <h2>Application form</h2>
+    <h2>Registration form</h2>
     <div class="form">
         <fieldset>
 
-            <legend>Application form</legend>
+            <legend>Sign-up</legend>
 
             <form action="backend.php">
 
@@ -55,6 +55,18 @@
                 <div>
                     <label for="lname">Last name :</label>
                     <input type="text" name="lname" id="lname" placeholder="Enter your last name">
+                </div>
+
+                <br>
+
+                <div>
+                    <label for="uname">Username : </label>
+                    <input type="text" name="uname" id="uname" placeholder="Create your user name">
+                </div>
+
+                <div>
+                    <label for="password">Password :</label>
+                    <input type="password" name="password" id="password" placeholder="Create a password" minlength="8">
                 </div>
 
                 <br>
@@ -89,11 +101,14 @@
                 <br>
 
                 <div> Gender :
-                    <input type="radio" name="gender" id="male" value="male" required>
+                    <input type="radio" name="gender" id="male" value="Male" required>
                     <label for="male">Male</label>
 
-                    <input type="radio" name="gender" id="female" value="female" required>
+                    <input type="radio" name="gender" id="female" value="Female" required>
                     <label for="female">Female</label>
+                    
+                    <input type="radio" name="gender" id="others" value="Others" required>
+                    <label for="others">Others</label>
                 </div><br>
 
                 <div>
