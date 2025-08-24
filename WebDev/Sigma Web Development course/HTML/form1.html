@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form 1</title>
+
+
+    <style>
+        body {
+            background-color: lightgoldenrodyellow;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        fieldset {
+            background-color: white;
+            border: 2px solid skyblue;
+            border-radius: 20px;
+            box-shadow: 15px 20px 25px skyblue;
+        }
+        legend{
+            padding: 5px;
+            background-color: skyblue;
+            border-radius: 10px;
+            box-shadow: 2px 2px 2px rgb(83, 126, 143);
+            color: white;
+            font-weight: bold;
+        }
+
+        .form,
+        h2 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Application form</h2>
+    <div class="form">
+        <fieldset>
+
+            <legend>Application form</legend>
+
+            <form action="backend.php">
+
+                <div>
+                    <label for="fname">First name : </label>
+                    <input type="text" name="fname" id="fname" placeholder="Enter your first name">
+                </div>
+
+                <div>
+                    <label for="lname">Last name :</label>
+                    <input type="text" name="lname" id="lname" placeholder="Enter your last name">
+                </div>
+
+                <br>
+
+                <div>
+                    <label for="email">Email :</label>
+                    <input type="email" name="email" id="email" placeholder="email@gmail.com" required>
+                </div>
+
+                <div>
+                    <label for="phone"> Phone :</label>
+                    <input type="tel" name="phone" id="phone" placeholder="+91XXXXXXXXXX" required>
+                </div>
+
+                <br>
+
+                <div>
+                    <label for="location">Your location :</label>
+
+                    <select name="location" id="location">
+                        <option value="india">India</option>
+                        <option value="usa">USA</option>
+                        <option value="uk">UK</option>
+                        <option value="australia">Australia</option>
+                        <option value="china">China</option>
+                        <option value="mexico">Mexico</option>
+                        <option value="canada">Canada</option>
+                        <option value="thailand">Thailand</option>
+                    </select>
+                </div>
+
+                <br>
+
+                <div> Gender :
+                    <input type="radio" name="gender" id="male" value="male" required>
+                    <label for="male">Male</label>
+
+                    <input type="radio" name="gender" id="female" value="female" required>
+                    <label for="female">Female</label>
+                </div><br>
+
+                <div>
+                    <label for="dob">DOB : </label>
+                    <input type="date" name="dob" id="dob">
+                </div><br>
+
+                <div>
+                    <label for="yoe">Years of Experience : </label>
+                    <input type="number" name="yoe" id="yoe" placeholder="Fresher">
+                </div><br>
+
+                <div> Skills :
+                    <input type="checkbox" name="skill" id="c++" value="C++">
+                    <label for="c++">C++</label>
+
+                    <input type="checkbox" name="skill" id="python" value="Python">
+                    <label for="python">Python</label>
+
+                    <input type="checkbox" name="skill" id="sql" value="SQL">
+                    <label for="sql">SQL</label>
+
+                    <input type="checkbox" name="skill" id="javascript" value="JavaScript">
+                    <label for="javascript">JavaScript</label>
+
+                    <input type="checkbox" name="skill" id="dsa" value="DSA">
+                    <label for="dsa">DSA</label>
+                </div>
+                <br>
+
+                <div>
+                    <div><label for="about">Write about yourself in 100 words :</label></div>
+                    <textarea name="about" id="about" cols="50" rows="5"
+                        placeholder="My name is Donald and my friend is Mr. Modi...."></textarea>
+                </div>
+
+
+
+
+
+                <div>
+                    <input type="submit" value="Submit Now">
+                    <input type="reset" value="Reset">
+                </div>
+
+            </form>
+
+        </fieldset>
+
+
+    </div>
+
+
+
+</body>
+
+</html>
