@@ -1,5 +1,4 @@
-import sys
-a=input(sys.argv[1])
-b=input(sys.argv[2])
+a=int(input("Enter first number : "))
+b=int(input("Enter second number : "))
 s=a+b
-print(s)
+print("Sum of ",a," & ", b," is : ",s)

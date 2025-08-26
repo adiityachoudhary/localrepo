@@ -2,7 +2,7 @@ import pyjokes
 import os
 
 os.system('cls') #clear screen 
-joke=pyjokes.get_joke()
+joke = pyjokes.get_joke()
 print(joke)
 
 # s='Aditya choudhary','patna'
