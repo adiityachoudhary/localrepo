@@ -3,7 +3,7 @@ import numpy as np
 
 a=float(input("Enter no to square it : "))
 
-# square=a*a
+square=a*a
 
 #another methods to find square
 # square=a**2
