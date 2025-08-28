@@ -6,7 +6,7 @@ class A
 private:
     int number = 90; // private attributes of class Box
 
-    friend class B; // private attributes of class Box is accessed by friend class B
+    friend class B; // private attributes of class Box is accessed by friend class B but not vice versa
 };
 
 class B
