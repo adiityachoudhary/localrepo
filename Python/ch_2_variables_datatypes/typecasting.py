@@ -22,9 +22,3 @@ print("Lower : ",d.lower())
 print("Capitalize : ",d.capitalize())
 print("Title : ",d.title())
 print("Swapcase : ",c.swapcase())
-
-
-
-
-
-
