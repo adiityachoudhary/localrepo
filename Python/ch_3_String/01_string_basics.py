@@ -1,3 +1,6 @@
+#String is and immutable datatype it cannot be modified but it can be reassigned
+
+
 #     string = ' H a r r y'
 #        index-  0 1 2 3 4
 #(-ve)indices   -5-4-3-2-1
