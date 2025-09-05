@@ -27,11 +27,19 @@ for i in range(0,4):
 print(f"\nComputer has chosen : {choice[computer_choice]}")
 
 #decision
-if((user_input==1 and computer_choice==2) or (user_input==3 and computer_choice==1)  or (user_input==2 and computer_choice==3)):
-    result="Yon WON!!"
-elif(user_input==computer_choice):
-        result="TIE!!"
+# if((user_input==1 and computer_choice==2) or (user_input==3 and computer_choice==1)  or (user_input==2 and computer_choice==3)):
+#     result="Yon WON!!"
+# elif(user_input==computer_choice):
+#         result="TIE!!"
+# else:
+#         result="You LOST!!"
+
+x=computer_choice-user_input
+if(x==1 or x==-2):
+    result= "You WON!!"
+elif(x==0):
+    result="TIE!!"
 else:
-        result="You LOST!!"
+    result="You LOST!!"
 
 print(result)
