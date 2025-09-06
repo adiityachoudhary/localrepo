@@ -1,0 +1,3 @@
+this file is used to rename its file name by
+import os library
+os.reanme(old, new_name)
