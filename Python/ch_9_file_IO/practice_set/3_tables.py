@@ -1,4 +1,7 @@
 #write tables 2 to 20 in a folder 
+import time
+
+start_time=time.time()
 
 start=2
 end=20
@@ -14,3 +17,6 @@ for i in range(start,end+1):
         with open(filename,"w") as f:
             for item in table(i):
                 f.write(f"{item}\n")
+
+end_time=time.time()
+print(f"Execution time : {end_time-start_time :.6f} seconds")

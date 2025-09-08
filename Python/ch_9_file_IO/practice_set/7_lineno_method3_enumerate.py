@@ -1,5 +1,5 @@
 # check if "python" is present in the log file or not
-
+#best method
 
 filename="Python\\ch_9_file_IO\\practice_set\\6_find_python.log"
 

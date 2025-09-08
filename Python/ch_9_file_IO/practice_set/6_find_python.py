@@ -6,6 +6,6 @@ filename="Python\\ch_9_file_IO\\practice_set\\6_find_python.log"
 with open(filename,"r") as f:
     data=f.read()
     if "python" in data.lower():
-        print("Yes")
+        print("YES, python is present")
     else: 
-        print("NO")
+        print("NO, python is not present")
