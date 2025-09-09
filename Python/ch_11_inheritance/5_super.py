@@ -1,5 +1,5 @@
-# super().base_class_method()
 #super() is used to invoke any method from the base class of which it is derived from
+# super().base_class_method() - add method after super() followed by a DOT(.)
 
 class Employee:    # base/parent class  # BAAP
     company="CWH Limited"
