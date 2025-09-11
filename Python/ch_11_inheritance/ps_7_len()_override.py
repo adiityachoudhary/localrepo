@@ -3,28 +3,18 @@ vector. """
 
 class Vector:
 
-    def __init__(self,a,b,c):
-        self.a=a
-        self.b=b
-        self.c=c
-
-    def __add__(self, other):
-        return Vector(self.a + other.a, self.b + other.b, self.c + other.c)
-    
-    def __mul__(self, other):
-        return Vector((self.a * other.a) + (self.b * other.b) + (self.c * other.c))
-    
-    def __str__(self):
-        return f"{self.a,self.b,self.c}"
+    def __init__(self, list):
+        self.list = list
     
     def __len__(self):
-        return len()
+        return len(self.list)
     
 
-v1=Vector(1,2,3)
-v2=Vector(4,5,6)
+v1=Vector([1,2,3,4])
+v2=Vector([4,5,6,5])
 
-print(v1+v2)
+# print("Sum of two vectors : ",v1+v2)
+# print("DOT Product of two vectors : ",v1*v2)
 
-print(len(v1))
+print("Length of Vector : ",len(v1))
 
