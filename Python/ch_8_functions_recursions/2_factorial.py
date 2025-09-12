@@ -10,7 +10,7 @@
 # factorial(n)=n x factorial(n-1)
 
 def fact(n):
-    if(n==1 or n==0):
+    if(n==1 or n==0):  #base condition to avoid infinite loop
         return 1
     return n * fact(n-1)
 

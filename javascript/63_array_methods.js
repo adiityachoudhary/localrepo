@@ -14,7 +14,7 @@ console.log(a);
 
 console.log(a.toString());  //convert it into string like a csv
 
-console.log(a.join(" and "));  //join() will replace the commas with the actual parameter
+console.log(a.join(" and "));  //join() will replace the commas between the actual parameter
 
 console.log(a.slice(2,4));
 
