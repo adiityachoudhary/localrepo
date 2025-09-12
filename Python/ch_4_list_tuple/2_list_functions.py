@@ -34,3 +34,7 @@ print(l1)
 
 l1.remove(8)
 print('8 is removed from the list l1 : ', l1) 
+
+print("Sum of all the elements in l1 : ",sum(l1))  # sum()
+print("Max among the elements in l1 : ",max(l1))   # max()
+print("Min among the elements in l1 : ",min(l1))   # min()

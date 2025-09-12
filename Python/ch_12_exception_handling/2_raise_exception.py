@@ -1,5 +1,5 @@
 # we can raise any exception on our own
-# its a custom message when the ZeroDivisionError comes
+# we can set a custom message when the ZeroDivisionError comes
 
 a=int(input("Enter first number : "))
 b=int(input("Enter second number : "))
